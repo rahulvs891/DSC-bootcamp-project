@@ -5,10 +5,12 @@ import Topnavbar from '../components/Topnavbar/Topnavbar'
 
 export default function ProfilePage() {
   return (
-    <div>
+    <div >
       <Topnavbar/>
+      <div style={{display:"flex"}}>
       <Sidenav/>
       <Userdetails/>
+      </div>
     </div>
   )
 }

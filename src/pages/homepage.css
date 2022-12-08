@@ -6,20 +6,17 @@
 }
 
 .rt-box {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100vh;
-    width: 30vw;
+    height: 95vh;
+    width: fit-content;
+    padding: 10px;
     background-color: #227F9D;
-   z-index: 2000;
 }
 
 .rt-box input {
     border: 1px solid grey;
     border-radius: 30px;
     height: 30px;
-    width: 270px;
+    width: 170px;
     padding: 2px 23px 2px 30px;
     outline: 0;
     background-color: #fff;
@@ -43,6 +40,12 @@
 .profile-icon img{
     height: 60px;
 }
+.lt-rt{
+display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
 .profile-icon{
     margin-top: 10px;
     margin-left: 20px;
@@ -58,37 +61,27 @@
     width: 2.7rem;
     color: aliceblue;
 }
-.home .homeimg{
-    position: relative;
-    top: 25%;
-    left: 40%;
-    width: 700px;
-    z-index: 6000;
+.sidebox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
 }
-p{
-    margin-left: 12px;
-    font-size: 1.5rem;
-    font-weight: 700;
+.home .homeimg{
+    width: 570px;
 }
 
 .home h1{
-    position: absolute;
-    top:190px;
-    left: 56px;
     font-weight: 900;
     font-size: 4rem;
     width: 39vw;
     letter-spacing: 10px;
 }
 .heroPara{
-    position: absolute;
-    top: 375px;
     color: #000000B5;
     font-size: 1.4rem;
     font-weight: 800;
     letter-spacing: 0.6px;
     width: 40vw;
-    margin-left: 5%;
 }
 
 #homeExplore{
@@ -99,9 +92,22 @@ p{
     font-size: 1.5rem;
     cursor: pointer;
     border: transparent;
-    position: relative;
-    bottom: 5%;
-    left: 25%;
-    margin-bottom: 5%;
-    margin-top: -5%;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.sidebox-column{
+    margin-top: 5rem;
+    display: flex;
+    margin-left:1rem ;
+    gap: 30px;
+    flex-direction: column;
+}
+.itemCardContainer{
+    margin-top: 200px;
+}
+.itemCardContainer p{
+    font-size: 2rem;
+    margin-left: 1rem;
 }

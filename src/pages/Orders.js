@@ -6,8 +6,10 @@ export default function Orders() {
   return (
     <>
     <Topnavbar/>
+    <div style={{display:"flex"}}>
       <Sidenav/>
-      <MyOrders/>
+          <MyOrders/>
+      </div> 
     </>
   )
 }

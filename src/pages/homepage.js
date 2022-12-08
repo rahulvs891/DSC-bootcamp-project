@@ -14,15 +14,18 @@ function Home() {
 
     return (
         <div className="home" >
+            <div className='lt-rt'>
             <div className="lt-box" >
                 <Topnavbar />
-                
-            </div>
-            <h1>WELCOME TO ROADSTERS</h1>
-            <p className='heroPara'>To sustainably make the Pleasure and Benefits of Sport accessible to the Many
-</p>
-<button id='homeExplore'>EXPLORE</button>
+            <div className='sidebox'>
+                <div className='sidebox-column'>
+                <h1>WELCOME TO ROADSTERS</h1>
+                <p className='heroPara'>To sustainably make the Pleasure and Benefits of Sport accessible to the Many</p>
+                <a id='homeExplore'>EXPLORE</a>
+                </div>
             <img src={Homeimg} className='homeimg'/>
+            </div>
+            </div>
            
             <div className='rt-box' >
                 <div className='small-box'>
@@ -37,11 +40,11 @@ function Home() {
                 </div>
                 
             </div>
-            <p>TRENDING</p>
+            </div>
             <div className="itemCardContainer">
+            <p>TRENDING</p>
             <ItemCard/>
             </div>
-           
         </div>);
 }
 

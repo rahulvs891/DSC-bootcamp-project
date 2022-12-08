@@ -2,12 +2,8 @@
     font-family: 'Iceberg', cursive;
     background-color: white;
     height: auto;
-    width: 70vw;
     padding:2rem;
     width: 80vw;
-   position: absolute;
-   top: 9.8%;
-   left: 21%;
 }
 .userDetailsContainer img{
     height: 10rem;

@@ -2,7 +2,6 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 import './Sidenav.css';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Orders from '../../pages/Orders';
 
 export default function Sidenav() {
   return (
@@ -14,7 +13,7 @@ export default function Sidenav() {
         <li>
           <label for='myDetailsLink'></label>
           <Icon icon="gg:profile" width="34" height="34" inline={true} />
-          <Link to={Orders} className='sideNavLinks' name='myDetailsLink'>My Orders</Link>
+          <Link to='/orders' className='sideNavLinks' name='myDetailsLink'>My Orders</Link>
         </li>
 
         <li>

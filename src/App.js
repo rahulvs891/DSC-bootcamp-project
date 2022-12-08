@@ -17,12 +17,6 @@ function App() {
         <div><Home/><Footer/></div>}  />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path='/orders' element={<Orders />}></Route>
-        <Route path='/mydetails' element={
-          <>
-            <Sidenav />
-            <MyDetails />
-          </>
-        }></Route>
       </Routes>
     </div>
   );
