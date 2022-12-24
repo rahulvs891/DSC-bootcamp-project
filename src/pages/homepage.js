@@ -34,9 +34,6 @@ function Home() {
                     </div>
 
                     <button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button>
-                    <Modal open={isOpen} onClose={() => setOpen(false)}>
-                        
-                    </Modal>
                 </div>
                 
             </div>
