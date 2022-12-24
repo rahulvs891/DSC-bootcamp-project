@@ -10,7 +10,6 @@ return (
         <li>Trending</li>
         <li>Product</li>
         <li>About</li>
-       
     </ul>
 </div>
 )

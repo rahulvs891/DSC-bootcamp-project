@@ -2,6 +2,7 @@ import './homepage.css';
 import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
+import { Link } from 'react-router-dom';
 import Modal from '../components/Login/Modal'
 import ItemCard from '../components/ItemCard/ItemCard';
 
@@ -33,7 +34,7 @@ function Home() {
                         <input type="text" placeholder="Search.." /> <h3 className='search-icon'><BsSearch /></h3>
                     </div>
 
-                    <button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button>
+                    <Link to='/profile'><button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button></Link>
                 </div>
                 
             </div>
